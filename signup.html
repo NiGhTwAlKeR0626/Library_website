@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amrithash Library - Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="stylo.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="logo">𝐀𝐌𝐑𝐈𝐓𝐇𝐀𝐒𝐇 𝐋𝐈𝐁𝐑𝐀𝐑𝐘</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="marquee-container">
+      <marquee>→→ Welcome To Our Library 📖📖</marquee>
+    </div>
+  </header>
+
+  <main>
+    <section class="signup-form">
+      <h1>Sign In to be Part of Our Library</h1>
+      <form action="back.php">
+        <fieldset>
+          <legend>Sign In to be Part of Our Library</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+          Gender: 
+          <label><input type="radio" name="G" value="Male" required> Male</label>
+          <label><input type="radio" name="G" value="Female" required> Female</label><br><br>
+          <label for="email">Enter Your Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="john@gmail.com" required><br>
+          <label for="pwd">Password:</label><br>
+          <input type="password" id="pwd" name="pwd" placeholder="Password" required><br>
+          <input type="submit" value="Sign in">
+          <input type="reset" value="Reset"><br>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <h1><u>Thanks For Visiting 😊</u></h1>
+      <h2>For ease, users can go here: <a href="https://www.amazon.in/Books">Amazon</a></h2>
+      <div class="form-container">
+        <h2>Give Your Feedback:</h2>
+        <form action="back.php">
+          <fieldset>
+            <legend>Give Your Feedback:</legend>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea cols="30" rows="5" placeholder="Enter Your Opinions Here..." required></textarea>
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+/* Define background color and image properties */
+body {
+    background-color: #e0f7fa; /* Softer blue background */
+    background-image: url('C:/Users/shukl/OneDrive/Desktop/lib.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif; /* Font */
+    color: #333; /* Text color for readability */
+}
+
+/* Style for navbar and its contents */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid #00796b;
+}
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li {
+    font-size: 18px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+}
+
+.navbar nav ul li a:hover {
+    color: #004d40;
+    text-decoration: underline;
+}
+
+/* About us section */
+.about-us {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-us h1 {
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer style */
+footer {
+    background-color: #00796b;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-content h1 {
+    color: red;
+}
+
+.footer-content a {
+    color: #ffeb3b;
+}
+
+.footer-content a:hover {
+    color: #ffc107;
+}
+
+/* Form container */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-container input, .form-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #004d40;
+}
